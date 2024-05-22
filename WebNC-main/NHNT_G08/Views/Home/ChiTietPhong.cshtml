@@ -1,0 +1,136 @@
+﻿@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor Accessor
+@model NHNT_G08.Models.Phong
+
+@{
+    ViewData["Title"] = "Chi Tiết Phòng";
+}
+
+@section Style {
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/chitietphong.css" />
+}
+
+<div class="main">
+    <h2 style="text-align:center">Thông Tin Chi Tiết Phòng @Model.tenPhong</h2>
+    <div class="grid content">
+        <div class="image_slider">
+            @if (Model.tenAnh == null)
+            {
+                <img class="myslides" src="~/img/anhtro/anh1.jpg" />
+            }
+            else
+            {
+                foreach (var anh in Model.tenAnh)
+                {
+                    <img class="myslides" src="~/img/anhphong_@Model.maPhong/@anh" />
+                }
+            }
+
+            @if (Model.tenAnh != null)
+            {
+                if (Model.tenAnh.Count > 1)
+                {
+                    <button class="slide_button arrow_left" onclick="plusDivs(-1)">&#10094;</button>
+                    <button class="slide_button arrow_right" onclick="plusDivs(1)">&#10095;</button>
+                }
+            }
+
+        </div>
+
+        <table class="room_information">
+            <tbody>
+                <tr>
+                    <td class="tieude"><i class="fa-sharp fa-solid fa-location-dot"></i> Địa Chỉ</td>
+                    <td>@Model.diaChi</td>
+                    <td class="tieude"><i class="fa-solid fa-phone"></i> Số Điện Thoại</td>
+                    <td>@Model.soDienThoai</td>
+                </tr>
+                <tr>
+                    <td class="tieude"><i class="fa-solid fa-money-bill"></i> Giá Phòng</td>
+                    <td>@Model.giaPhong.ToString("#,#")</td>
+                    <td class="tieude"><i class="fa-solid fa-house"></i> Diện Tích</td>
+                    <td>@Model.dienTich</td>
+                </tr>
+                <tr>
+                    <td class="tieude"><i class="fa-sharp fa-solid fa-bolt"></i> Giá Điện</td>
+                    <td>@Model.giaDien.ToString("#,#")</td>
+                    <td class="tieude"><i class="fa-sharp fa-solid fa-droplet"></i> Giá Nước</td>
+                    <td>@Model.giaNuoc.ToString("#,#")</td>
+                </tr>
+                <tr>
+                    <td class="tieude"><i class="fa-solid fa-signal-bars"></i> Trạng Thái</td>
+                    <td><span class="trangthai">@Model.trangThaiPhong</span></td>
+                    <td class="tieude"><i class="fa-regular fa-face-smile"></i> Đánh Giá</td>
+                    <td>
+                        <div class="rate">
+                            <input type="radio" id="star5" name="rate" value="5" @(Model.soSaoTrungBinh == 5 ? "checked" : "") />
+                            <label for="star5" title="text">5 stars</label>
+                            <input type="radio" id="star4" name="rate" value="4" @(Model.soSaoTrungBinh == 4 ? "checked" : "") />
+                            <label for="star4" title="text">4 stars</label>
+                            <input type="radio" id="star3" name="rate" value="3" @(Model.soSaoTrungBinh == 3 ? "checked" : "") />
+                            <label for="star3" title="text">3 stars</label>
+                            <input type="radio" id="star2" name="rate" value="2" @(Model.soSaoTrungBinh == 2 ? "checked" : "") />
+                            <label for="star2" title="text">2 stars</label>
+                            <input type="radio" id="star1" name="rate" value="1" @(Model.soSaoTrungBinh == 1 ? "checked" : "") />
+                            <label for="star1" title="text">1 star</label>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <span style="font-size:24px"><i class="fa-solid fa-circle-info"></i> Mô Tả Chi Tiết</span>
+        <p>@Model.chiTietPhong</p>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("myslides");
+            if (n > x.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = x.length }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            x[slideIndex - 1].style.display = "block";
+        }
+        $('document').ready(function () {
+            
+
+            $('input[name=rate]').click(function () {
+                var soSao = $(this).val();
+                var maTaiKhoan = @Convert.ToInt32(Accessor.HttpContext.Session.GetString("maTaiKhoan"));
+                if (maTaiKhoan == "") {
+                    alert("Bạn cần đăng nhập để thực hiện chức năng này")
+                    window.location.href = "@Url.Action("Index","Login")"
+                } else {
+                    var result = confirm("Bạn có xác nhận đánh giá bài đăng này ?")
+                    if (result == true) {
+                    $.ajax({
+                        type: "POST",
+                        url: "@Url.Action("DanhGiaBaiDang")",
+                        data: {
+                            soSao: soSao,
+                            maPhong: @Model.maPhong,
+                            maTaiKhoan:@Convert.ToInt32(Accessor.HttpContext.Session.GetString("maTaiKhoan")),
+                        },
+                        success: function (result) {
+                            result ? alert('Cảm Ơn Bạn Đã Đánh Giá') : alert('Lỗi Đánh Giá !')
+                        }
+                    });
+                    }
+                }
+            })
+        })
+    </script>
+}

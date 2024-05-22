@@ -1,0 +1,228 @@
+﻿/*------------------------------- Main ------------*/
+/* .main_one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.main_logo {
+    width: 200px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid rgb(91, 250, 58);
+}
+
+.main_one-sub {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    padding-left: 60px;
+}
+
+.main_one-sub-item {
+    padding: 50px;
+}
+
+.main_one-sub-protect1 {
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid rgb(91, 250, 58);
+    padding: 10px;
+}
+
+.main_one-sub-title {
+    color: rgb(61, 223, 28);
+}
+
+.main_one-sub-itemend {
+    margin-left: -30px;
+}
+
+
+/* item_travel */
+
+.fieldset_item {
+    border-color: #017FFF;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+     margin-top: 50px; 
+}
+
+.fieldset_item-title {
+    text-align: center;
+    font-size: 25px;
+}
+
+    .fieldset_item-title a {
+        text-decoration: none;
+        color: #017FFF;
+    }
+
+.item {
+    padding-top: 30px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: calc(2%/3);
+}
+
+.item_travel {
+    position: relative;
+    border: 1px solid rgb(1, 127, 255);
+    margin-bottom: 2rem;
+}
+
+.item_travel-item1 {
+    padding-top: 95%;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.item_travel-item2-con {
+    padding-bottom: 10px;
+}
+
+.item_travel-item2 {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.item_travel-item2-icon {
+    color: yellow;
+}
+
+.item_travel-item2-con-price {
+    float: right;
+    color: rgb(33, 105, 199);
+    font-weight: 700;
+}
+
+.item_travel-item2-title {
+    font-weight: 550;
+    font-size: 18px;
+    color: rgb(233, 13, 24);
+    text-decoration: none;
+}
+
+.item_travel-item2-info {
+    margin-top: 10px;
+    display: flex;
+}
+
+.item_travel-item2-info2 {
+    position: relative;
+    margin: auto;
+    display: block;
+    float: right;
+}
+
+p {
+    line-height: 25px;
+}
+
+.item_travel-item2-info2 a {
+    color: white;
+    text-decoration: none;
+    font-weight: 550;
+    background-color: rgb(1, 127, 255);
+    padding: 5px 10px;
+}
+
+    .item_travel-item2-info2 a::after {
+        content: "";
+        right: -35px;
+        top: -10px;
+        position: absolute;
+        border-width: 19px;
+        border-style: solid;
+        border-color: transparent transparent transparent rgb(1, 127, 255);
+    }
+
+.see_more {
+    width: 100px;
+    margin: 20px auto;
+}
+
+    .see_more a {
+        font-size: 18px;
+        text-decoration: none;
+    }
+
+/* -------News ---------*/
+
+.news {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.travel_news {
+    position: relative;
+    border: 1px solid rgb(91, 250, 58);
+    /*margin-left: 5px;*/
+    padding:10px;
+}
+
+.travel_news-item1 {
+    padding-top: 95%;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.travel_news-item2 {
+    padding: 10px 5px;
+    margin-top: 10px;
+}
+
+.travel-news-title {
+    font-weight: 550;
+    font-size: 18px;
+    color: rgb(233, 13, 24);
+    text-decoration: none;
+}
+
+.travel-item2-detail {
+    text-decoration: none;
+}
+
+
+    .travel-item2-detail p {
+        text-align: justify;
+    }
+
+.page {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+:root {
+    --star-size: 20px;
+    --star-color: #ccc;
+    --star-background: #fc0;
+}
+
+.stars {
+    --percent: calc(var(--rating) / 5 * 100%);
+    display: inline-block;
+    font-size: var(--star-size);
+    font-family: Times;
+    line-height: 1;
+}
+
+    .stars::before {
+        content: "★★★★★";
+        background: linear-gradient(90deg, var(--star-background) var(--percent), var(--star-color) var(--percent));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }

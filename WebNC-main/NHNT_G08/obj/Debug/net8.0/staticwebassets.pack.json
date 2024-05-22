@@ -1,0 +1,533 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\css\\baidadang.css",
+      "PackagePath": "staticwebassets\\css\\baidadang.css"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\css\\changepass.css",
+      "PackagePath": "staticwebassets\\css\\changepass.css"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\css\\chitietphong.css",
+      "PackagePath": "staticwebassets\\css\\chitietphong.css"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\css\\dangki.css",
+      "PackagePath": "staticwebassets\\css\\dangki.css"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\css\\dangnhap.css",
+      "PackagePath": "staticwebassets\\css\\dangnhap.css"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\css\\h.css",
+      "PackagePath": "staticwebassets\\css\\h.css"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\css\\index.css",
+      "PackagePath": "staticwebassets\\css\\index.css"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\css\\quanlybaidang.css",
+      "PackagePath": "staticwebassets\\css\\quanlybaidang.css"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\css\\taikhoan.css",
+      "PackagePath": "staticwebassets\\css\\taikhoan.css"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\css\\thembaidang.css",
+      "PackagePath": "staticwebassets\\css\\thembaidang.css"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\font-awesome-6-offline\\css\\all.css",
+      "PackagePath": "staticwebassets\\font-awesome-6-offline\\css\\all.css"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\font-awesome-6-offline\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\font-awesome-6-offline\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\font-awesome-6-offline\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\font-awesome-6-offline\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\font-awesome-6-offline\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\font-awesome-6-offline\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\font-awesome-6-offline\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\font-awesome-6-offline\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\font-awesome-6-offline\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\font-awesome-6-offline\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\font-awesome-6-offline\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\font-awesome-6-offline\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\font-awesome-6-offline\\webfonts\\fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets\\font-awesome-6-offline\\webfonts\\fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\font-awesome-6-offline\\webfonts\\fa-v4compatibility.woff2",
+      "PackagePath": "staticwebassets\\font-awesome-6-offline\\webfonts\\fa-v4compatibility.woff2"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhcu\\Logo200.png",
+      "PackagePath": "staticwebassets\\img\\anhcu\\Logo200.png"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhcu\\ba-ria-vung-tau.jpg",
+      "PackagePath": "staticwebassets\\img\\anhcu\\ba-ria-vung-tau.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhcu\\cauvang.jpg",
+      "PackagePath": "staticwebassets\\img\\anhcu\\cauvang.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhcu\\chitiet_anh2.jpg",
+      "PackagePath": "staticwebassets\\img\\anhcu\\chitiet_anh2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhcu\\chitiet_anh5.jpg",
+      "PackagePath": "staticwebassets\\img\\anhcu\\chitiet_anh5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhcu\\chua_tam_chuc_hanam.jpg",
+      "PackagePath": "staticwebassets\\img\\anhcu\\chua_tam_chuc_hanam.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhcu\\ct_st_1.jpg",
+      "PackagePath": "staticwebassets\\img\\anhcu\\ct_st_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhcu\\ct_st_2.jpg",
+      "PackagePath": "staticwebassets\\img\\anhcu\\ct_st_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhcu\\ct_st_3.jpg",
+      "PackagePath": "staticwebassets\\img\\anhcu\\ct_st_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhcu\\ct_st_4.png",
+      "PackagePath": "staticwebassets\\img\\anhcu\\ct_st_4.png"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhcu\\dao-ngoc-phu-quoc.jpg",
+      "PackagePath": "staticwebassets\\img\\anhcu\\dao-ngoc-phu-quoc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhcu\\dichvu.png",
+      "PackagePath": "staticwebassets\\img\\anhcu\\dichvu.png"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhcu\\hoi_an_quang_nam.jpg",
+      "PackagePath": "staticwebassets\\img\\anhcu\\hoi_an_quang_nam.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhcu\\kinh-thanh-hue.jpg",
+      "PackagePath": "staticwebassets\\img\\anhcu\\kinh-thanh-hue.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhcu\\nhomDLBac\\catba_haiphong.jpg",
+      "PackagePath": "staticwebassets\\img\\anhcu\\nhomDLBac\\catba_haiphong.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhcu\\nhomDLBac\\maichau_hoabinh.jpg",
+      "PackagePath": "staticwebassets\\img\\anhcu\\nhomDLBac\\maichau_hoabinh.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhcu\\nhomDLBac\\mocchau_sonla.jpg",
+      "PackagePath": "staticwebassets\\img\\anhcu\\nhomDLBac\\mocchau_sonla.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhcu\\nhomDLBac\\tamcoc_bichdong.jpg",
+      "PackagePath": "staticwebassets\\img\\anhcu\\nhomDLBac\\tamcoc_bichdong.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhcu\\price.jpg",
+      "PackagePath": "staticwebassets\\img\\anhcu\\price.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhcu\\price.png",
+      "PackagePath": "staticwebassets\\img\\anhcu\\price.png"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhcu\\promotion.png",
+      "PackagePath": "staticwebassets\\img\\anhcu\\promotion.png"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhcu\\protect.png",
+      "PackagePath": "staticwebassets\\img\\anhcu\\protect.png"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhcu\\protect1.png",
+      "PackagePath": "staticwebassets\\img\\anhcu\\protect1.png"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhcu\\quan-dao-ba-lua.jpg",
+      "PackagePath": "staticwebassets\\img\\anhcu\\quan-dao-ba-lua.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhcu\\sai-gon.jpg",
+      "PackagePath": "staticwebassets\\img\\anhcu\\sai-gon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhcu\\tam-dao-vinh-phuc.jpg",
+      "PackagePath": "staticwebassets\\img\\anhcu\\tam-dao-vinh-phuc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhcu\\tem1.png",
+      "PackagePath": "staticwebassets\\img\\anhcu\\tem1.png"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhcu\\tem2.png",
+      "PackagePath": "staticwebassets\\img\\anhcu\\tem2.png"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhcu\\thuyen_hoa.jpg",
+      "PackagePath": "staticwebassets\\img\\anhcu\\thuyen_hoa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhcu\\tienich.png",
+      "PackagePath": "staticwebassets\\img\\anhcu\\tienich.png"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhcu\\trang_an_ninh_binh.jpg",
+      "PackagePath": "staticwebassets\\img\\anhcu\\trang_an_ninh_binh.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhcu\\travel_world.jpg",
+      "PackagePath": "staticwebassets\\img\\anhcu\\travel_world.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhcu\\travel_world.png",
+      "PackagePath": "staticwebassets\\img\\anhcu\\travel_world.png"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhcu\\tt-hoi-an.PNG",
+      "PackagePath": "staticwebassets\\img\\anhcu\\tt-hoi-an.PNG"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhcu\\tt-sai-gon.PNG",
+      "PackagePath": "staticwebassets\\img\\anhcu\\tt-sai-gon.PNG"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhcu\\tt-vinh-ha-long.jpg",
+      "PackagePath": "staticwebassets\\img\\anhcu\\tt-vinh-ha-long.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhcu\\vinh_ha_long.jpg",
+      "PackagePath": "staticwebassets\\img\\anhcu\\vinh_ha_long.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhcu\\vuon-hoa-da-lat.jpg",
+      "PackagePath": "staticwebassets\\img\\anhcu\\vuon-hoa-da-lat.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhdaidien\\11.jpg",
+      "PackagePath": "staticwebassets\\img\\anhdaidien\\11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhdaidien\\2.jpg",
+      "PackagePath": "staticwebassets\\img\\anhdaidien\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhdaidien\\3.jpg",
+      "PackagePath": "staticwebassets\\img\\anhdaidien\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhdaidien\\5.jpg",
+      "PackagePath": "staticwebassets\\img\\anhdaidien\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhdaidien\\6.jpg",
+      "PackagePath": "staticwebassets\\img\\anhdaidien\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhdaidien\\macdinh.jpg",
+      "PackagePath": "staticwebassets\\img\\anhdaidien\\macdinh.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhdaidien\\quang.jpg",
+      "PackagePath": "staticwebassets\\img\\anhdaidien\\quang.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhdaidien\\quanguser.jpg",
+      "PackagePath": "staticwebassets\\img\\anhdaidien\\quanguser.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhdaidien\\test1.jpg",
+      "PackagePath": "staticwebassets\\img\\anhdaidien\\test1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhphong_11\\PhongTro.jpg",
+      "PackagePath": "staticwebassets\\img\\anhphong_11\\PhongTro.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhphong_12\\anh2.jpg",
+      "PackagePath": "staticwebassets\\img\\anhphong_12\\anh2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhphong_12\\anh3.png",
+      "PackagePath": "staticwebassets\\img\\anhphong_12\\anh3.png"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhphong_13\\troC.jpg",
+      "PackagePath": "staticwebassets\\img\\anhphong_13\\troC.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhphong_14\\troA.jpg",
+      "PackagePath": "staticwebassets\\img\\anhphong_14\\troA.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhphong_15\\troC.jpg",
+      "PackagePath": "staticwebassets\\img\\anhphong_15\\troC.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhphong_16\\troC.jpg",
+      "PackagePath": "staticwebassets\\img\\anhphong_16\\troC.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhphong_17\\troA.jpg",
+      "PackagePath": "staticwebassets\\img\\anhphong_17\\troA.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhphong_18\\troC.jpg",
+      "PackagePath": "staticwebassets\\img\\anhphong_18\\troC.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhphong_19\\troA.jpg",
+      "PackagePath": "staticwebassets\\img\\anhphong_19\\troA.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhphong_20\\troC.jpg",
+      "PackagePath": "staticwebassets\\img\\anhphong_20\\troC.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhphong_21\\troC.jpg",
+      "PackagePath": "staticwebassets\\img\\anhphong_21\\troC.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhphong_22\\troC.jpg",
+      "PackagePath": "staticwebassets\\img\\anhphong_22\\troC.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhphong_23\\HuyenThao.png",
+      "PackagePath": "staticwebassets\\img\\anhphong_23\\HuyenThao.png"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhphong_6\\6.jpg",
+      "PackagePath": "staticwebassets\\img\\anhphong_6\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhphong_7\\5.jpg",
+      "PackagePath": "staticwebassets\\img\\anhphong_7\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhphong_7\\6.jpg",
+      "PackagePath": "staticwebassets\\img\\anhphong_7\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhphong_8\\11.jpg",
+      "PackagePath": "staticwebassets\\img\\anhphong_8\\11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhphong_8\\macdinh.jpg",
+      "PackagePath": "staticwebassets\\img\\anhphong_8\\macdinh.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhphong_9\\PhongTro.jpg",
+      "PackagePath": "staticwebassets\\img\\anhphong_9\\PhongTro.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhtro\\Frame.png",
+      "PackagePath": "staticwebassets\\img\\anhtro\\Frame.png"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhtro\\anh1.jpg",
+      "PackagePath": "staticwebassets\\img\\anhtro\\anh1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhtro\\anh2.jpg",
+      "PackagePath": "staticwebassets\\img\\anhtro\\anh2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhtro\\anh3.png",
+      "PackagePath": "staticwebassets\\img\\anhtro\\anh3.png"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhtro\\anh4.webp",
+      "PackagePath": "staticwebassets\\img\\anhtro\\anh4.webp"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\img\\anhtro\\anhchung.png",
+      "PackagePath": "staticwebassets\\img\\anhtro\\anhchung.png"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\phamv\\OneDrive\\Máy tính\\WebNC-main-20240229T142523Z-001\\WebNC-main\\NHNT_G08\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.NHNT_G08.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.NHNT_G08.props",
+      "PackagePath": "build\\NHNT_G08.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.NHNT_G08.props",
+      "PackagePath": "buildMultiTargeting\\NHNT_G08.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.NHNT_G08.props",
+      "PackagePath": "buildTransitive\\NHNT_G08.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,78 @@
+﻿@model NHNT_G08.Models.TaiKhoan
+@section Style {
+    <link rel="stylesheet" href="~/css/dangnhap.css" />
+}
+@section scripts{
+    <script>
+        $(function () {
+            $('#AlertBox').removeClass('hide');
+            $('#AlertBox').delay(2000).slideUp(500);
+        });
+
+    </script>
+}
+<!-- Phần thân trang web -->
+<div class="main">
+
+    <div class="form_dangnhap">
+        <p class="form_dangnhap-title">ĐĂNG NHẬP</p>
+        @if (TempData["AlertMessage"] != null)
+        {
+            <div id="AlertBox" class="alert @TempData["AlertType"] hide" role="alert">
+                @TempData["AlertMessage"]
+            </div>
+        }
+        <form asp-controller="Login" asp-action="Login" method="post">
+            <div class="form_dangnhap-item">
+                <label class="form_dangnhap-item-label" for="">Tên tài khoản</label>
+                <input asp-for="tenDangNhap" type="text" name="tenDangNhap" id="tenDangNhap"
+                       class="form_dangnhap-item-input" placeholder="  Tên đăng nhập">
+                <label asp-validation-for="tenDangNhap" id="dn_loi_email" style="margin-top: 10px; color: red"></label>
+            </div>
+
+            <div class="form_dangnhap-item">
+                <label class="form_dangnhap-item-label" for="">Mật khẩu</label>
+                <input asp-for="matKhau" type="password" name="matKhau" id="matKhau" class="form_dangnhap-item-input"
+                       placeholder="  Nhập mật khẩu">
+                <p asp-validation-for="matKhau" id="dn_loi_mk" style="margin-top: 10px; color: red"></p>
+            </div>
+
+            
+            <div class="form_dangnhap-show">
+                <input type="checkbox" id="hienThiMatKhau" class="">
+                <label class="form_dangnhap-item-label" for="hienThiMatKhau">Hiển thị mật khẩu</label>
+            </div>
+            @if (ViewBag.loi != null)
+            {
+                <div class="alert alert-danger">@ViewBag.loi</div>
+            }
+
+            <div class="form_dangnhap-btn">
+                <button class="btn btn_dangnhap" asp-action="Login" type="submit" id="btn_dangnhap">
+                    Đăng nhập
+                </button>
+            </div>
+
+            <label class="form_dangnhap-item-label" style="margin-left: 50px;" for="">
+                Nếu bạn chưa có tài khoản, đăng kí
+                <a href="@Url.Action("Index", "Register")">tại đây</a>
+            </label>
+        </form>
+    </div>
+</div>
+@if (TempData["ThongBao"] != null)
+{
+<script type="text/javascript" charset="utf-8">alert('@Html.Raw(TempData["ThongBao"])');</script>
+}
+<script>
+    const checkbox = document.getElementById("hienThiMatKhau");
+    const matKhauInput = document.getElementById("matKhau");
+
+    checkbox.addEventListener("change", function () {
+        if (checkbox.checked) {
+            matKhauInput.type = "text";
+        } else {
+            matKhauInput.type = "password";
+        }
+    });
+</script>

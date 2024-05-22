@@ -1,0 +1,125 @@
+﻿
+@section Style {
+    <link rel="stylesheet" href="~/css/baidadang.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+}
+
+@model List<NHNT_G08.Models.Phong>
+@* <form class="d-flex justify-content-center" asp-controller="BaiDang" asp-action="BaiDaDang">
+    <p>
+        Địa chỉ : <input type="text" name="timkiem" />
+        <input type="submit" value="Tìm kiếm" class="btn btn-primary" />
+    </p>
+</form> *@
+
+<form class="d-flex justify-content-center" asp-controller="BaiDang" asp-action="BaiDaDang">
+    <p>
+        Trạng thái:
+        <select name="timkiem">
+            <option value="Duyệt">Duyệt</option>
+            <option value="Chưa duyệt">Chưa duyệt</option>
+        </select>
+        <input type="submit" value="Tìm kiếm" class="btn btn-primary" />
+    </p>
+</form>
+
+<div class="main">
+    <h1 class="title">Quản lý bài đăng thuê trọ</h1>
+    <div class="grid item">
+        @*khi click nút đằng bài*@
+        <a class="thembaidang" asp-controller="BaiDang" asp-action="ThemBaiDang" >Thêm bài đăng</a>
+        <table>
+            <tr>
+                <th>STT</th>
+                <th>Họ tên người đăng bài</th>
+                <th>Số điện thoại</th>
+                <th>Thông tin phòng trọ</th>
+                <th>Trạng thái phòng</th>
+                <th>Trạng thái bài đăng</th>
+                <th>Tác vụ</th>
+            </tr>
+
+            @foreach (var item in Model.Select((baidang, i) => (baidang, i)))
+            {
+                <tr>
+                    <td>@Convert.ToInt32(item.i +1)</td>
+                    <td>@item.baidang.tenNguoiDang</td>
+                    <td>@item.baidang.soDienThoai</td>
+                    <td>
+                        <span>Tên phòng :@item.baidang.tenPhong</span><br>
+                        <span>Địa chỉ :@item.baidang.diaChi</span><br>
+                        <span>Giá phòng : @item.baidang.giaPhong</span><br>
+                        <span>Giá điện : @item.baidang.giaDien</span><br>
+                        <span>Giá nước : @item.baidang.giaNuoc</span><br>
+                        <span>Diện tích :@item.baidang.dienTich</span>
+                    </td>
+
+                    <td>@item.baidang.trangThaiPhong</td>
+                    <td>@item.baidang.trangThaiBaiDang</td>
+                    <td>
+                        @Html.ActionLink("Sửa Bài", "SuaBaiDang", item.baidang, new { @class = "btn_sua" })
+                        <button class="btn_xoa" data-id=@item.baidang.maPhong>Xóa Bài</button>
+                    </td>
+                </tr>
+            }
+        </table>
+    </div>
+    @*@{
+            var previousDisabled = !Model.HasPreviousPage ? "disabled" : "";
+            var nextDisabled = !Model.HasNextPage ? "disabled" : "";
+        }
+
+        <div class="page">
+            <a asp-action="Index" asp-route-pageIndex="@(Model.PageIndex -1)" class="btn btn-primary @previousDisabled">
+                Previous
+            </a>
+
+            <a asp-action="Index" asp-route-pageIndex="@(Model.PageIndex +1)" class="btn btn-primary @nextDisabled">
+                Next
+            </a>
+        </div>*@
+</div>
+
+@section Scripts {
+
+@*     <script>
+        $(document).ready(function () {
+            $('#trangThai').change(function () {
+                var trangThai = $(this).val();
+                $.ajax({
+                    type: "GET",
+                    url: "@Url.Action("BaiDaDang")",
+                    data: { timkiem: trangThai },
+                    success: function (result) {
+                        $('.main').html(result);
+                    },
+                    error: function () {
+                        alert("Đã có lỗi xảy ra.");
+                    }
+                });
+            });
+        });
+    </script> *@
+
+    <script>
+        $('document').ready(function () {
+            $('.btn_xoa').click(function () {
+                var maPhong = $(this).attr("data-id");
+                var result = confirm("Bạn có xác nhận xóa bài đăng này ?")
+                if (result == true) {
+                $.ajax({
+                    type: "POST",
+                    url: "@Url.Action("XoaBaiDang")",
+                    data: {
+                        maPhong: maPhong,
+                    },
+                    success: function (result) {
+                        result ? alert('Xóa Thành Công') : alert('Xóa Thất Bại')
+                        window.location.href = "@Url.Action("BaiDaDang")"
+                    }
+                });
+                }
+            })
+        })
+    </script>
+}

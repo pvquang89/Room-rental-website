@@ -1,0 +1,128 @@
+﻿
+
+@section Style {
+    <link rel="stylesheet" href="~/css/quanlybaidang.css" />
+
+    <style>
+        .btn_bokhoa {
+            background-color: #4CAF50; /* Màu xanh */
+            border: none;
+            color: white;
+            padding: 8px 16px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+            .btn_bokhoa:hover {
+                background-color: #45a049; /* Màu xanh đậm khi di chuột vào */
+            }
+    </style>
+}
+
+@model List<NHNT_G08.Models.TaiKhoan>
+
+<div class="main">
+    <h1 class="title">Quản lý tài khoản</h1>
+    <div class="grid item">
+
+        <table>
+            <tr>
+                <th>STT</th>
+                <th>Họ tên người dùng</th>
+                <th>Số điện thoại</th>
+                <th>Tên đăng nhập</th>
+                <th>Vai trò</th>
+                <th>Trạng thái tài khoản</th>
+                <th>Tác vụ</th>
+            </tr>
+
+            @for (int i = 1; i <= Model.Count; i++)
+            {
+                <tr>
+                    <td>@i</td>
+                    <td>@Model[i - 1].hoTenNguoiDung</td>
+                    <td>@Model[i - 1].soDienThoai</td>
+                    <td>@Model[i - 1].tenDangNhap</td>
+                    <td>@Model[i - 1].tenLoaiTK</td>
+                    <td class="@Model[i - 1].maTaiKhoan status_account">@Model[i - 1].trangThai</td>
+                    <td>
+                        <button class="btn btn_khoa" data-id="@Model[i - 1].maTaiKhoan">Khóa tài khoản</button>
+                        <button class="btn btn_bokhoa" data-id="@Model[i - 1].maTaiKhoan">Bỏ khoá</button>
+                    </td>
+                </tr>
+
+            }
+
+
+        </table>
+
+    </div>
+</div>
+
+
+
+
+
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('.btn_khoa').click(function () {
+                var id = $(this).attr('data-id');
+
+                // Kiểm tra trạng thái tài khoản trước khi gửi yêu cầu
+                if ($('.' + id).text() === "Khóa tài khoản") {
+                    alert("Tài khoản đã bị khóa trước đó!");
+                    return;
+                }
+
+                // Gửi yêu cầu AJAX để khóa tài khoản
+                $.ajax({
+                    type: "POST",
+                    url: "@Url.Action("khoaTaiKhoan")",
+                    data: {
+                        id: id
+                    },
+                    success: function (result) {
+                        console.log(result);
+                        if (result === true) {
+                            $('.' + id).html("Khoá tài khoản");
+                            alert("Đã khóa tài khoản");
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+
+
+    <script>
+        $(document).ready(function () {
+            $('.btn_bokhoa').click(function () {
+                var id = $(this).attr('data-id');
+                // Gửi yêu cầu AJAX để khóa tài khoản
+                $.ajax({
+                    type: "POST",
+                    url: "@Url.Action("boKhoaTaiKhoan")",
+                    data: {
+                        id: id
+                    },
+                    success: function (result) {
+                        console.log(result);
+                        if (result === true) {
+                            $('.' + id).html("Hoạt Động");
+                            alert("Đã bỏ khóa tài khoản");
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+}
+
+

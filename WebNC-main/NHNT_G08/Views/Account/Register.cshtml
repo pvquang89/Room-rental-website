@@ -1,0 +1,136 @@
+@* @model NHNT_G08.Models.TaiKhoan *@
+@section Style {
+    <link rel="stylesheet" href="~/css/dangki.css" />
+}
+<!-- Phần thân trang web -->
+<div class="main">
+    <div class="form_dangki ">
+        <p class="form_dangki-title">ĐĂNG KÝ</p>
+        <form asp-controller="Register" asp-action="Register" enctype="multipart/form-data" method="post" class="row">
+            <div class="col-3 avatar">
+                <label class="form_dangki-item-label" for="">Ảnh đại diện</label>
+                <img src="@Url.Content("~/img/anhdaidien/macdinh.jpg")" alt="">
+                <br>
+                <input type="file" value="" name="anhDaiDien" class="input_img">
+            </div>
+            <div class="col-9">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="form_dangki-item">
+                            <label class="form_dangki-item-label" for="">Tên đăng nhập</label>
+                            <input type="text" name="tenDangNhap" id="tenDangNhap" class="form_dangki-item-input"
+                                placeholder="  Tên đăng nhập">
+                            @* <p id="dk_loi_email" style="margin-left: 170px; margin-top: 10px; color: red">lỗi</p> *@
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="form_dangki-item">
+                            <label class="form_dangki-item-label" for="">Họ tên</label>
+                            <input type="text" name="hoTenNguoiDung" id="hoten" class="form_dangki-item-input"
+                                placeholder="  Họ tên">
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="form_dangki-item">
+                            <label class="form_dangki-item-label" for="">Số điện thoại</label>
+                            <input type="text" name="soDienThoai" id="sdt" class="form_dangki-item-input"
+                                placeholder="  Số điện thoại">
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="form_dangki-item">
+                                <label>Giới tính:</label><br />
+                                <input type="radio" id="nam" name="gioiTinh" value="true" checked />
+                                <label for="nam">Nam</label><br />
+                                <input type="radio" id="nu" name="gioiTinh" value="false" />
+                                <label for="nu">Nữ</label><br />
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="form_dangki-item">
+                            <label class="form_dangki-item-label" for="" placeholder="Password">Mật khẩu</label>
+                            <input type="password" name="matKhau" id="matKhau" class="form_dangki-item-input"
+                                placeholder="  Mật khẩu">
+                            @* <p id="dk_loi_mk" style="margin-left: 170px; margin-top: 10px; color: red"></p> *@
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="form_dangki-item">
+                            <label class="form_dangki-item-label" for="" placeholder="RePassword">Nhập lại mật
+                                khẩu</label>
+                            <input type="password" name="nhaplai_matkhau" id="nhaplai_matkhau"
+                                class="form_dangki-item-input" placeholder="  Nhập lại mật khẩu">
+                            @* <p id="dk_loi_nlmk" style="margin-left: 170px; margin-top: 10px; color: red"></p> *@
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="form_dangki-show">
+                            <input type="checkbox" id="hienThiMatKhau" class="">
+                            <label class="form_dangki-item-label" for="hienThiMatKhau">Hiển thị mật khẩu</label>
+                        </div>
+                    </div>
+                    
+                    @if (ViewBag.loi != null)
+                    {
+                        <div class="col-12">
+                            <div class="alert alert-danger">@ViewBag.loi</div>
+                        </div>
+                    }
+                    <div class="col-12">
+                        <div class="form_dangki-btn">
+                            <button type="submit" class="btn btn_dangki" id="btn_dangki">Đăng kí</button>
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <label class="form_dangki-item-label linklogin" for="" style="margin-left: 50px;">Bạn đã có tài khoản?
+                            Đăng nhập
+                            <a href="@Url.Action("Index", "Login")">tại đây</a></label>
+                    </div>
+                </div>
+            </div>
+
+        </form>
+    </div>
+</div>
+<script>
+  const checkbox = document.getElementById("hienThiMatKhau");
+  
+  const matKhauInput = document.getElementById("matKhau");
+  const nlmatKhauInput = document.getElementById("nhaplai_matkhau");
+
+  checkbox.addEventListener("change", function() {
+    if (checkbox.checked) {
+      matKhauInput.type = "text";
+      nlmatKhauInput.type = "text";
+    } else {
+      matKhauInput.type = "password";
+      nlmatKhauInput.type = "password";
+    }
+  });
+</script>
+
+<script>
+  const sdtInput = document.getElementById("sdt");
+  const dnLoiSdt = document.getElementById("dn_loi_sdt");
+
+  sdtInput.addEventListener("input", function() {
+    const sdtValue = sdtInput.value.trim();
+    const regex = /^[0-9]+$/;
+
+    if (sdtValue === "") {
+      dnLoiSdt.textContent = "";
+    } else if (regex.test(sdtValue)) {
+      dnLoiSdt.textContent = "Hợp lệ";
+      dnLoiSdt.style.color = "green";
+    } else {
+      dnLoiSdt.textContent = "Số điện thoại không hợp lệ";
+      dnLoiSdt.style.color = "red";
+    }
+  });
+</script>

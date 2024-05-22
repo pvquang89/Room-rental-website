@@ -1,0 +1,66 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@section Style {
+    <link rel="stylesheet" href="~/css/h.css" />    
+    <link rel="stylesheet" href="~/css/index.css" />
+}
+@using System.Globalization;
+@model Pagination<Phong>
+
+
+<!-- Phần thân trang web -->
+<div class="main">
+    @* <fieldset class="fieldset_item" id="fieldset_item-mienbac"> *@
+
+        <div class="grid item">
+            @foreach (var phong in Model)
+            {
+                <div class="grid_col_4 item_travel">
+                    <a asp-action="ChiTietPhong" asp-route-id=@phong.maPhong>
+                        @if (phong.tenAnh == null)
+                        {
+                            <div class="item_travel-item1" style="background-image: url('/img/anhtro/anh2.jpg');"></div>
+                        }
+                        else
+                        {
+                            <div class="item_travel-item1" style="background-image: url('/img/anhphong_@phong.maPhong/@phong.tenAnh[0]');"></div>
+                        }
+                    </a>
+                    <div class="item_travel-item2">
+                        <div class="item_travel-item2-con">
+                            <div class="stars" style="--rating: @String.Format(CultureInfo.InvariantCulture, "{0:F2}", phong.soSaoTrungBinh);" aria-label="Rating of this product is 2.3 out of 5."></div>
+                            <span>@phong.soLuotDanhGia lượt</span>
+
+                            <span class="item_travel-item2-con-price">@phong.giaPhong.ToString("#,#") Đ</span>
+                        </div>
+                        <a asp-action="ChiTietPhong" asp-route-id=@phong.maPhong class="item_travel-item2-title">@phong.tenPhong</a>
+
+                        <div class="item_travel-item2-info">
+                            <div>
+                                <p>
+                                    <i class="fa-sharp fa-solid fa-location-dot"></i>
+                                    <span class="travel-item2-info--span">Địa chỉ: @phong.diaChi</span>
+                                </p>
+                                <p>
+                                    <i class="fa-sharp fa-solid fa-bolt"></i>
+                                    <span class="travel-item2-info--span">Giá điện: @phong.giaDien.ToString("#,#") Đ</span>
+                                </p>
+                                <p>
+                                    <i class="fa-sharp fa-solid fa-droplet"></i>
+                                    <span class="travel-item2-info--span">Giá nước: @phong.giaNuoc.ToString("#,#") Đ</span>
+                                </p>
+                                <p>
+                            <i class="fa-solid fa-user"></i>
+                            <span class="travel-item2-info--span">Chi tiết: @phong.chiTietPhong</span>
+                            </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+
+

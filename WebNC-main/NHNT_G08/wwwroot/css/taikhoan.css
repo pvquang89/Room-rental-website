@@ -1,0 +1,319 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+ 
+.header{
+    background-image: none !important;
+}
+
+.header_menu{
+    background-color: #017fffcc;
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+.logo{
+    margin-left: 50px;
+    width: 100px;
+}
+
+.menu_list{
+    display: flex;
+    margin-left: 100px;
+}
+
+.menu_list-item{
+    position: relative;
+    list-style: none;
+    color:white;
+    font-size: 18px;
+    padding:0 40px;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+/* xu ly khi có tài khoản */
+
+.menu_list-hot p {
+    color: white;
+    /* height: 10px; */
+    font-size: 16px;
+    padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.none {
+    display: none;
+}
+
+.control_account {
+    color: white;
+    text-decoration: none;
+}
+.control_account:hover {
+    color:rgb(91, 250, 58) ;
+    text-decoration:none;
+}
+
+.dangxuat, .tenDangNhap, .changepass {
+    color: white;
+     text-decoration: none;
+ }
+ 
+     .dangxuat:hover, .tenDangNhap:hover, .changepass:hover {
+         color:rgb(91, 250, 58);
+         text-decoration:none;
+     }
+/* ------------- */
+.menu_list-item:hover{
+    color:  rgb(91, 250, 58);
+}
+
+.menu_list-item-link{
+    text-decoration: none;
+    color:white;
+}
+
+.menu_list-item-link:hover{
+    color:  rgb(91, 250, 58);
+}
+
+.menu_list-hot{
+    font-size: 16px;
+    margin-top: 35px;
+}
+
+.menu_list-hotline{ 
+    color: white;
+    font-size: 18px;
+}
+
+.menu_list-item-sub{
+    position: absolute;
+    display: none;
+    z-index: 10;
+}
+
+.menu_list-item:hover .menu_list-item-sub{
+    display: block;
+}
+
+.menu_list-item-sub li{
+    display: block;
+    list-style: none;
+    line-height: 60px;
+    width: 160px;
+    background-color: rgb(91, 250, 58);
+    padding-left: 50px;
+}
+
+.menu_list-item-sub li a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu_list-item-sub li:hover{
+    background-color: rgb(49, 199, 19);
+}
+
+.header_title-item{
+    color : white;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+
+/* form */
+.form_taikhoan{
+    width: 900px;
+    margin-top: 40px;
+    margin: 0 auto;
+    border: 2px solid rgb(91, 250, 58);
+    padding: 40px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+
+.form_taikhoan-title{
+    text-align: center;
+    color: rgb(47, 175, 22);
+    font-size: 30px;
+}
+
+.form_taikhoan-item{
+    
+    padding: 10px 20px 10px 20px;
+}
+
+.form_taikhoan-item-label{
+    font-size: 20px;
+    width: 80%;
+}
+
+.form_taikhoan-item-input{
+    /* margin-left: 50px; */
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.form_taikhoan-show{
+    margin-left: 20px;
+    margin-top: 45px;
+    padding-bottom: 30px;
+}
+
+/* #hoten{
+    margin-left: 105px;
+} */
+
+.linklogin{
+    
+    margin-left: 100px !important;
+    text-align: center;
+}
+#nhaplai_matkhau{
+    /* margin-left: 16px; */
+}
+
+.form_taikhoan-btn{
+    margin-left: 35px;
+    width: 100%;
+    text-align: center;
+}
+
+.btn{
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(47, 175, 22);
+    color:white;
+}
+.btn_xoa{
+    margin: 10px;
+    border-radius: 0.25rem;
+    padding: 2px 10px 2px 10px;
+    border: none;
+    background-color: red;
+    color:white;
+}
+.btn:hover{
+    background-color: rgb(47, 175, 22, 0.8);
+    cursor: pointer;
+}
+.file{
+    padding-top: 10px;
+}
+.form_taikhoan-btn{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* footer */
+hr{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid rgb(91, 250, 58);
+}
+
+.grid{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.grid_col_3{
+    width: 30%;
+}
+
+.footer{
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.footer_col_1{
+    padding: 20px;
+}
+
+.footer_col_1-title{
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.grid_col_3-double{
+    display: flex;
+    padding-left: 40px;
+}
+
+.row{
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-1 {
+    width: 8.33%;
+  }
+  
+  .col-2 {
+    width: 16.66%;
+  }
+  
+  .col-3 {
+    width: 25%;
+  }
+  
+  .col-4 {
+    width: 33.33%;
+  }
+  
+  .col-5 {
+    width: 41.66%;
+  }
+  
+  .col-6 {
+    width: 50%;
+  }
+  
+  .col-7 {
+    width: 58.33%;
+  }
+  
+  .col-8 {
+    width: 66.66%;
+  }
+  
+  .col-9 {
+    width: 75%;
+  }
+  
+  .col-10 {
+    width: 83.33%;
+  }
+  
+  .col-11 {
+    width: 91.66%;
+  }
+  
+  .col-12 {
+    width: 100%;
+  }
+  
+.avatar img{
+    width: auto;
+    height: 250px;
+    padding: 10px;
+}
+.input_img{
+    padding: 10px;
+}
+

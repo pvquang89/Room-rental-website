@@ -1,0 +1,319 @@
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\appsettings.Development.json
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\appsettings.json
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\NHNT_G08.exe
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\NHNT_G08.deps.json
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\NHNT_G08.runtimeconfig.json
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\NHNT_G08.runtimeconfig.dev.json
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\NHNT_G08.dll
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\ref\NHNT_G08.dll
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\NHNT_G08.pdb
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\NHNT_G08.Views.dll
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\NHNT_G08.Views.pdb
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\NHNT_G08.csproj.AssemblyReference.cache
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\NHNT_G08.GeneratedMSBuildEditorConfig.editorconfig
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\NHNT_G08.AssemblyInfoInputs.cache
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\NHNT_G08.AssemblyInfo.cs
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\NHNT_G08.csproj.CoreCompileInputs.cache
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\NHNT_G08.MvcApplicationPartsAssemblyInfo.cache
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\NHNT_G08.RazorAssemblyInfo.cache
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\NHNT_G08.RazorAssemblyInfo.cs
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\staticwebassets\NHNT_G08.StaticWebAssets.Manifest.cache
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\staticwebassets\NHNT_G08.StaticWebAssets.xml
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\scopedcss\bundle\NHNT_G08.styles.css
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\NHNT_G08.TagHelpers.input.cache
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\NHNT_G08.TagHelpers.output.cache
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\NHNT_G08.RazorCoreGenerate.cache
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\NHNT_G08.RazorTargetAssemblyInfo.cache
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\NHNT_G08.RazorTargetAssemblyInfo.cs
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\NHNT_G08.Views.pdb
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\NHNT_G08.dll
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\ref\NHNT_G08.dll
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\NHNT_G08.pdb
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\NHNT_G08.genruntimeconfig.cache
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\NHNT_G08.csproj.CopyComplete
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\System.Runtime.Caching.dll
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\BTL_WNC_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\Razor\Views\Home\DanhGia.cshtml.g.cs
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\appsettings.json
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\NHNT_G08.exe
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\NHNT_G08.deps.json
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\NHNT_G08.runtimeconfig.json
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\NHNT_G08.runtimeconfig.dev.json
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\NHNT_G08.dll
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\NHNT_G08.pdb
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\NHNT_G08.Views.dll
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\NHNT_G08.Views.pdb
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\NHNT_G08.csproj.AssemblyReference.cache
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\NHNT_G08.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\NHNT_G08.AssemblyInfoInputs.cache
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\NHNT_G08.AssemblyInfo.cs
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\NHNT_G08.csproj.CoreCompileInputs.cache
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\NHNT_G08.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\NHNT_G08.RazorAssemblyInfo.cache
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\NHNT_G08.RazorAssemblyInfo.cs
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\staticwebassets\NHNT_G08.StaticWebAssets.Manifest.cache
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\scopedcss\bundle\NHNT_G08.styles.css
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\NHNT_G08.TagHelpers.input.cache
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\NHNT_G08.TagHelpers.output.cache
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\NHNT_G08.RazorCoreGenerate.cache
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\Razor\Views\Account\Register.cshtml.g.cs
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\Razor\Views\BaiDang\BaiDaDang.cshtml.g.cs
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\Razor\Views\BaiDang\BaiDangDaDanhGia.cshtml.g.cs
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\Razor\Views\BaiDang\ThemBaiDang.cshtml.g.cs
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\Razor\Views\Home\ChiTietPhong.cshtml.g.cs
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\Razor\Views\QuanLyBaiDang\Index.cshtml.g.cs
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\Razor\Views\QuanLyTaiKhoan\Index.cshtml.g.cs
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\NHNT_G08.RazorTargetAssemblyInfo.cache
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\NHNT_G08.RazorTargetAssemblyInfo.cs
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\NHNT_G08.Views.pdb
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\NHNT_G08.csproj.CopyComplete
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\NHNT_G08.dll
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\ref\NHNT_G08.dll
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\NHNT_G08.pdb
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\NHNT_G08.genruntimeconfig.cache
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\staticwebassets\NHNT_G08.StaticWebAssets.Pack.cache
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\staticwebassets\msbuild.NHNT_G08.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\staticwebassets\msbuild.build.NHNT_G08.props
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.NHNT_G08.props
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.NHNT_G08.props
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\refint\NHNT_G08.dll
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\Razor\Views\Account\Account.cshtml.g.cs
+C:\Users\Windows\WEB_NC\BTL_17.07\NHNT_G08\NHNT_G08\NHNT_G08\obj\Debug\net5.0\Razor\Views\Account\ChangePass.cshtml.g.cs
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\bin\Debug\net5.0\appsettings.json
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\bin\Debug\net5.0\NHNT_G08.exe
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\bin\Debug\net5.0\NHNT_G08.deps.json
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\bin\Debug\net5.0\NHNT_G08.runtimeconfig.json
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\bin\Debug\net5.0\NHNT_G08.runtimeconfig.dev.json
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\bin\Debug\net5.0\NHNT_G08.dll
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\bin\Debug\net5.0\NHNT_G08.pdb
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\bin\Debug\net5.0\NHNT_G08.Views.dll
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\bin\Debug\net5.0\NHNT_G08.Views.pdb
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\obj\Debug\net5.0\NHNT_G08.csproj.AssemblyReference.cache
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\obj\Debug\net5.0\NHNT_G08.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\obj\Debug\net5.0\NHNT_G08.AssemblyInfoInputs.cache
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\obj\Debug\net5.0\NHNT_G08.AssemblyInfo.cs
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\obj\Debug\net5.0\NHNT_G08.csproj.CoreCompileInputs.cache
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\obj\Debug\net5.0\NHNT_G08.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\obj\Debug\net5.0\NHNT_G08.RazorAssemblyInfo.cache
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\obj\Debug\net5.0\NHNT_G08.RazorAssemblyInfo.cs
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\obj\Debug\net5.0\scopedcss\bundle\NHNT_G08.styles.css
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\obj\Debug\net5.0\staticwebassets\NHNT_G08.StaticWebAssets.Manifest.cache
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\obj\Debug\net5.0\staticwebassets\NHNT_G08.StaticWebAssets.Pack.cache
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\obj\Debug\net5.0\staticwebassets\msbuild.NHNT_G08.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\obj\Debug\net5.0\staticwebassets\msbuild.build.NHNT_G08.props
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.NHNT_G08.props
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.NHNT_G08.props
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\obj\Debug\net5.0\NHNT_G08.TagHelpers.input.cache
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\obj\Debug\net5.0\NHNT_G08.TagHelpers.output.cache
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\obj\Debug\net5.0\NHNT_G08.RazorCoreGenerate.cache
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\obj\Debug\net5.0\Razor\Views\Account\Account.cshtml.g.cs
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\obj\Debug\net5.0\Razor\Views\Account\ChangePass.cshtml.g.cs
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\obj\Debug\net5.0\Razor\Views\Account\Register.cshtml.g.cs
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\obj\Debug\net5.0\Razor\Views\BaiDang\BaiDaDang.cshtml.g.cs
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\obj\Debug\net5.0\Razor\Views\BaiDang\BaiDangDaDanhGia.cshtml.g.cs
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\obj\Debug\net5.0\Razor\Views\BaiDang\ThemBaiDang.cshtml.g.cs
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\obj\Debug\net5.0\Razor\Views\Home\ChiTietPhong.cshtml.g.cs
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\obj\Debug\net5.0\Razor\Views\QuanLyBaiDang\Index.cshtml.g.cs
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\obj\Debug\net5.0\Razor\Views\QuanLyTaiKhoan\Index.cshtml.g.cs
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\obj\Debug\net5.0\NHNT_G08.RazorTargetAssemblyInfo.cache
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\obj\Debug\net5.0\NHNT_G08.RazorTargetAssemblyInfo.cs
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\obj\Debug\net5.0\NHNT_G08.Views.pdb
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\obj\Debug\net5.0\NHNT_G08.csproj.CopyComplete
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\obj\Debug\net5.0\NHNT_G08.dll
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\obj\Debug\net5.0\refint\NHNT_G08.dll
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\obj\Debug\net5.0\NHNT_G08.pdb
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\obj\Debug\net5.0\NHNT_G08.genruntimeconfig.cache
+C:\Users\Windows\WEB_NC\BTL\WebNC\WebNC\NHNT_G08\obj\Debug\net5.0\ref\NHNT_G08.dll
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\bin\Debug\net5.0\appsettings.json
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\bin\Debug\net5.0\NHNT_G08.exe
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\bin\Debug\net5.0\NHNT_G08.deps.json
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\bin\Debug\net5.0\NHNT_G08.runtimeconfig.json
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\bin\Debug\net5.0\NHNT_G08.runtimeconfig.dev.json
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\bin\Debug\net5.0\NHNT_G08.dll
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\bin\Debug\net5.0\NHNT_G08.pdb
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\bin\Debug\net5.0\NHNT_G08.Views.dll
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\bin\Debug\net5.0\NHNT_G08.Views.pdb
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\obj\Debug\net5.0\NHNT_G08.csproj.AssemblyReference.cache
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\obj\Debug\net5.0\NHNT_G08.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\obj\Debug\net5.0\NHNT_G08.AssemblyInfoInputs.cache
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\obj\Debug\net5.0\NHNT_G08.AssemblyInfo.cs
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\obj\Debug\net5.0\NHNT_G08.csproj.CoreCompileInputs.cache
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\obj\Debug\net5.0\NHNT_G08.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\obj\Debug\net5.0\NHNT_G08.RazorAssemblyInfo.cache
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\obj\Debug\net5.0\NHNT_G08.RazorAssemblyInfo.cs
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\obj\Debug\net5.0\NHNT_G08.TagHelpers.input.cache
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\obj\Debug\net5.0\NHNT_G08.TagHelpers.output.cache
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\obj\Debug\net5.0\NHNT_G08.RazorCoreGenerate.cache
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\obj\Debug\net5.0\Razor\Views\Account\Account.cshtml.g.cs
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\obj\Debug\net5.0\Razor\Views\Account\ChangePass.cshtml.g.cs
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\obj\Debug\net5.0\Razor\Views\Account\Register.cshtml.g.cs
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\obj\Debug\net5.0\Razor\Views\BaiDang\BaiDaDang.cshtml.g.cs
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\obj\Debug\net5.0\Razor\Views\BaiDang\BaiDangDaDanhGia.cshtml.g.cs
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\obj\Debug\net5.0\Razor\Views\BaiDang\ThemBaiDang.cshtml.g.cs
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\obj\Debug\net5.0\Razor\Views\Home\ChiTietPhong.cshtml.g.cs
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\obj\Debug\net5.0\Razor\Views\QuanLyBaiDang\Index.cshtml.g.cs
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\obj\Debug\net5.0\Razor\Views\QuanLyTaiKhoan\Index.cshtml.g.cs
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\obj\Debug\net5.0\NHNT_G08.RazorTargetAssemblyInfo.cache
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\obj\Debug\net5.0\NHNT_G08.RazorTargetAssemblyInfo.cs
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\obj\Debug\net5.0\NHNT_G08.Views.pdb
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\obj\Debug\net5.0\scopedcss\bundle\NHNT_G08.styles.css
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\obj\Debug\net5.0\staticwebassets\NHNT_G08.StaticWebAssets.Manifest.cache
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\obj\Debug\net5.0\staticwebassets\NHNT_G08.StaticWebAssets.Pack.cache
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\obj\Debug\net5.0\staticwebassets\msbuild.NHNT_G08.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\obj\Debug\net5.0\staticwebassets\msbuild.build.NHNT_G08.props
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.NHNT_G08.props
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.NHNT_G08.props
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\obj\Debug\net5.0\NHNT_G08.csproj.CopyComplete
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\obj\Debug\net5.0\NHNT_G08.dll
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\obj\Debug\net5.0\refint\NHNT_G08.dll
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\obj\Debug\net5.0\NHNT_G08.pdb
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\obj\Debug\net5.0\NHNT_G08.genruntimeconfig.cache
+C:\Users\phamv\OneDrive\Máy tính\WebNC-main-20240229T142523Z-001\WebNC-main\NHNT_G08\obj\Debug\net5.0\ref\NHNT_G08.dll

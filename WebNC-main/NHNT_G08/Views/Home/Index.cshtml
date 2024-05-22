@@ -1,0 +1,187 @@
+﻿@using System.Globalization;
+@model Pagination<Phong>
+@{
+    ViewData["Title"] = "Danh Sách Phòng";
+}
+
+@section Style {
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/index.css" />
+}
+
+<!-- Phần thân trang web -->
+<div class="main">
+    <fieldset class="fieldset_item" id="fieldset_item-mienbac">
+        <legend class="fieldset_item-title">
+            <a href="" id="">****** Thông tin phòng trọ *****</a>
+        </legend>
+        @*Tìm theo địa chỉ*@
+        <form class="d-flex justify-content-center" asp-controller="home" asp-action="index">
+            <p>
+                Địa chỉ : <input type="text" name="diachi" />
+                <input type="submit" value="tìm kiếm" class="btn btn-primary" />
+            </p>
+        </form> 
+
+
+        <a asp-action="SapXepTheoGia" class="btn btn-primary">Sắp xếp theo giá</a>
+
+        <div class="grid item">
+            @foreach (var phong in Model)
+            {
+                <div class="grid_col_4 item_travel">
+                    <a asp-action="ChiTietPhong" asp-route-id=@phong.maPhong>
+                        @if (phong.tenAnh == null)
+                        {
+                            <div class="item_travel-item1" style="background-image: url('/img/anhtro/anh2.jpg');"></div>
+                        }
+                        else
+                        {
+                            <div class="item_travel-item1" style="background-image: url('/img/anhphong_@phong.maPhong/@phong.tenAnh[0]');"></div>
+                        }
+                    </a>
+                    <div class="item_travel-item2">
+                        <div class="item_travel-item2-con">
+                            <div class="stars" style="--rating: @String.Format(CultureInfo.InvariantCulture, "{0:F2}", phong.soSaoTrungBinh);" aria-label="Rating of this product is 2.3 out of 5."></div>
+                            <span>@phong.soLuotDanhGia lượt</span>
+
+                            <span class="item_travel-item2-con-price">@phong.giaPhong.ToString("#,#") Đ</span>
+                        </div>
+                        <a asp-action="ChiTietPhong" asp-route-id=@phong.maPhong class="item_travel-item2-title">@phong.tenPhong</a>
+
+                        <div class="item_travel-item2-info">
+                            <div>
+                                <p>
+                                    <i class="fa-sharp fa-solid fa-location-dot"></i>
+                                    <span class="travel-item2-info--span">Địa chỉ: @phong.diaChi</span>
+                                </p>
+                                <p>
+                                    <i class="fa-sharp fa-solid fa-bolt"></i>
+                                    <span class="travel-item2-info--span">Giá điện: @phong.giaDien.ToString("#,#") Đ</span>
+                                </p>
+                                <p>
+                                    <i class="fa-sharp fa-solid fa-droplet"></i>
+                                    <span class="travel-item2-info--span">Giá nước: @phong.giaNuoc.ToString("#,#") Đ</span>
+                                </p>
+                                <p>
+                                    <i class="fa-sharp fa-solid fa-droplet"></i>
+                                    <span class="travel-item2-info--span">Chi tiết: @phong.chiTietPhong Đ</span>
+                                </p>
+                                @* <p>
+                                    <i class="fa-solid fa-user"></i>
+                                    <span class="travel-item2-info--span">Người đăng bài: @phong.tenNguoiDang</span>
+                                </p> *@
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+
+
+        </div>
+     @*    @{
+            var previousDisabled = !Model.HasPreviousPage ? "disabled" : "";
+            var nextDisabled = !Model.HasNextPage ? "disabled" : "";
+        } *@
+
+       @*  <div class="page">
+        <a asp-action="Index" asp-route-pageIndex="@(Model.PageIndex -1)" class="btn btn-primary @previousDisabled">
+        Previous
+        </a>
+
+        <a asp-action="Index" asp-route-pageIndex="@(Model.PageIndex +1)" class="btn btn-primary @nextDisabled">
+        Next
+        </a>
+        </div> *@
+    </fieldset>
+
+    <br><br><br>
+
+    @* <div class="grid">
+    <p style="color:rgb(43, 172, 17);font-size: 27px;margin: 30px 0;">Top Phòng Có Đánh Giá Cao Nhất</p>
+    <div class="news">
+
+    <div class="grid_col_3 travel_news">
+    <a href="">
+    <div class="travel_news-item1" style="background-image: url('https://recmiennam.com/wp-content/uploads/2018/01/hinh-anh-vinh-ha-long-1.jpg');"></div>
+    </a>
+    <div class="travel_news-item2">
+
+    <a href="" class="travel-news-title">Bạn muốn biết thêm về Hội An</a>
+
+    <a href="" class="travel-item2-detail">
+    <p style="">
+    Nếu được một lần đặt chân đến vùng đất miến trung thân thương, xin hãy ghé thăm phố cổ hội an, dành thời gian
+    để tận hưởng khám phá rọn vẹn vẻ đẹp và văn hóa nơi đây.....
+    </p>
+
+    </a>
+    </div>
+    </div>
+
+    <div class="grid_col_3 travel_news">
+    <a href="">
+    <div class="travel_news-item1" style="background-image: url('https://kenh14cdn.com/thumb_w/660/2020/7/30/photo-1-15960830616942085771134.jpg');"></div>
+    </a>
+    <div class="travel_news-item2">
+
+    <a href="" class="travel-news-title">Bạn muốn biết thêm về Hội An</a>
+
+    <a href="" class="travel-item2-detail">
+    <p>
+    Nếu được một lần đặt chân đến vùng đất miến trung thân thương, xin hãy ghé thăm phố cổ hội an, dành thời gian
+    để tận hưởng khám phá rọn vẹn vẻ đẹp và văn hóa nơi đây.....
+    </p>
+
+    </a>
+    </div>
+    </div>
+
+    <div class="grid_col_3 travel_news">
+    <a href="">
+    <div class="travel_news-item1" style="background-image: url('https://afamilycdn.com/2020/1/25/photo-1579917193675-15799171936821461273161.png');"></div>
+    </a>
+    <div class="travel_news-item2">
+
+    <a href="" class="travel-news-title">Bạn muốn biết thêm về Hội An</a>
+
+    <a href="" class="travel-item2-detail">
+    <p>
+    Nếu được một lần đặt chân đến vùng đất miến trung thân thương, xin hãy ghé thăm phố cổ hội an, dành thời gian
+    để tận hưởng khám phá rọn vẹn vẻ đẹp và văn hóa nơi đây.....
+    </p>
+
+    </a>
+    </div>
+    </div>
+    </div>
+    </div>
+    *@
+
+    <div class="grid">
+        <p style="color:rgb(43, 172, 17);font-size: 27px;margin: 30px 0;">Biết hơn về NHNTG17</p>
+        <p style="padding: 10px; text-align: justify;">
+            Hiện nay, thực trạng vấn đề tìm thuê phòng trọ đã trở nên khó khăn hơn do thiếu hụt sự quản lý và tính đảm bảo đối với các căn hộ,
+            phòng trọ cho thuê. Tại Hà Nội - là nơi tập trung nhiều trường đại học, công ty, doanh nghiệp lớn trong và ngoài nước. Do đó, đây là
+            nơi sinh sống, làm việc và học tập của đông đảo người lao động, sinh viên đến từ khắp các tỉnh thành. Chính vì vậy mà nhu cầu tìm thuê
+            nhà trọ, phòng trọ Hà Nội là rất cao, số lượng phòng trọ tại Hà Nội cũng tăng lên đáng kể.
+            Tính tới Tháng 7/2023, số lượng tin đăng tìm nhà trọ, phòng trọ Hà Nội đã có hơn hàng nghìn tin đăng với đa dạng phân khúc giá khác nhau.
+            Với nhu cầu thuê phòng trọ rất đa dạng, nên nhiều loại hình phòng trọ mới đã xuất hiện giúp cho người thuê trọ có thể thoải mái sinh sống
+            . Vì thế việc xây dựng một website hỗ trợ quản lý thông tin phòng trọ là một điều không thể thiếu, việc cung cấp và cập nhật thông tin
+            các phòng trọ, chủ nhà trọ và thông tin những người muốn tìm thuê trọ sẽ giúp các đối tượng nắm bắt được thông tin một cách dễ dàng,
+            nhanh chóng và tiện lợi.
+
+        </p>
+    </div>
+
+</div>
+
+
+@section Scripts {
+    @if (TempData["ThongBao"] != null)
+    {
+        <script type="text/javascript" charset="utf-8">alert('@Html.Raw(TempData["ThongBao"])');</script>
+    }
+}
+
+  

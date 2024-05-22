@@ -1,0 +1,71 @@
+﻿@* @model NHNT_G08.Models.TaiKhoan *@
+@section Style {
+    <link rel="stylesheet" href="~/css/taikhoan.css" />
+}
+@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor httpContextAccessor
+<!-- Phần thân trang web -->
+<div class="main">
+    <div class="form_taikhoan ">
+        <p class="form_taikhoan-title">Thông tin tài khoản</p>
+        <form asp-controller="Account" asp-action="Update" enctype="multipart/form-data" method="post" class="row">
+            <div class="col-5 avatar">
+                <label class="form_taikhoan-item-label" for="">Ảnh đại diện</label>
+                <img id ="img" src="@if(httpContextAccessor.HttpContext.Session.GetString("anhDaiDien") != null) {
+                @httpContextAccessor.HttpContext.Session.GetString("anhDaiDien")
+}" alt="">
+                <br>
+                <div class="row">
+                    @if (ViewBag.anhDaiDien != null)
+                    {
+                        <div class="col-2" id="btnXoa">
+                            <input type="button" class="btn_xoa" id="btn_xoa" value="Xóa">
+                        </div>
+                    }
+                    <div class="col-10 file">
+                        <input type="file" value="" name="anhDaiDien" class="update_img" />
+                    </div>
+                </div>
+            </div>
+            <div class="col-7">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="form_taikhoan-item">
+                            <label class="form_taikhoan-item-label" for="">Tên đăng nhập</label>
+                            <input disabled type="text" name="tenDangNhap" id="taikhoan"
+                                class="form_taikhoan-item-input" value="@if(ViewBag.tenDangNhap != null) {
+                            @ViewBag.tenDangNhap
+}">
+                            @* <p id="dk_loi_email" style="margin-left: 170px; margin-top: 10px; color: red">lỗi</p> *@
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="form_taikhoan-item">
+                            <label class="form_taikhoan-item-label" for="">Họ tên</label>
+                            <input type="text" name="hoTenNguoiDung" id="hoten" class="form_taikhoan-item-input" value="@if(ViewBag.hoTenNguoiDung != null) {
+                            @ViewBag.hoTenNguoiDung
+}">
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="form_taikhoan-item">
+                            <label class="form_taikhoan-item-label" for="">Số điện thoại</label>
+                            <input type="text" name="soDienThoai" id="sdt" class="form_taikhoan-item-input" value="@if(ViewBag.soDienThoai != null){
+                            @ViewBag.soDienThoai
+}">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12">
+                <div class="form_taikhoan-btn">
+                    <br>
+                    <button type="submit" class="btn btn_taikhoan" id="btn_taikhoan">Cập nhật</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+    <script src="~/js/site.js" asp-append-version="true"></script>

@@ -1,0 +1,157 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+   
+    <link rel="stylesheet" href="~/font-awesome-6-offline/css/all.css" />
+    @RenderSection("Style")
+    @using Microsoft.AspNetCore.Http
+    @inject IHttpContextAccessor httpContextAccessor
+</head>
+<body>
+    <div id="web">
+        <header class="header">
+            <!-- menu -->
+            <div class="header_menu">
+                <a href="index.html"><img src="./assets/img/Logo200.png" alt="" class="logo"></a>
+                <ul class="menu_list">
+                    <li class="menu_list-item">
+                        <a asp-action="Index" asp-controller="Home" class="menu_list-item-link menu_list-item-nth1">Trang chủ</a>
+                        
+                    </li>
+                    <li class="menu_list-item">
+                        <a asp-action="BaiDaDang" asp-controller="BaiDang" class="menu_list-item-link">Bài đăng</a>
+                        
+                    </li>
+                    <li class="menu_list-item">
+                        <a asp-action="BaiDangDaDanhGia" asp-controller="BaiDang" class="menu_list-item-link">Đánh giá</a>
+                    </li>
+
+                    <li class="menu_list-item">
+                        <a href="@Url.Action("Index", "Register")" class="menu_list-item-link dangki">Đăng kí</a>
+                    </li>
+
+                    <li class="menu_list-item">
+                        <a href="@Url.Action("Index", "Login")" class="menu_list-item-link dangki">Đăng nhập</a>
+                    </li>
+                        @* <li class="menu_list-item">
+                        <a href="@Url.Action("DanhSachPhong", "Home")" class="menu_list-item-link dangnhap">DSPHONG</a>
+                        </li> *@
+              
+
+
+
+                    @if (httpContextAccessor.HttpContext.Session.GetString("hoTenNguoiDung") != null)
+                    {                    
+                    <div class="menu_list-hot">                        
+                        <p>
+                            
+                             
+                            <a href="@Url.Action("Index", "Account")" class="tenDangNhap control_account">
+                                <img src="@if(httpContextAccessor.HttpContext.Session.GetString("anhDaiDien") != null) {@httpContextAccessor.HttpContext.Session.GetString("anhDaiDien")}" alt="" style="width:40px;height: 40px; margin-top:-10px; border-radius: 50%" id="avatar">
+                                <span> @httpContextAccessor.HttpContext.Session.GetString("hoTenNguoiDung") </span>
+                                </a>
+                            <a href="@Url.Action("Index", "ChangePass")" class="changepass">| Đổi mật khẩu</a> 
+                            <a href="@Url.Action("Logout", "Login")" class="dangxuat">| Đăng xuất</a>       
+                        </p>
+                        @if(httpContextAccessor.HttpContext.Session.GetString("maDmTaiKhoan") == "1"){
+                            
+                        <p style="margin-left: 52px;">
+                            @* <a asp-controller="Home" asp-action="danhsachphong" class="control_account">Danh sách phòng</a> *@
+                            <a asp-controller="QuanLyTaiKhoan" asp-action="Index" class="control_account">Ql tài khoản |</a>
+                            <a asp-controller="QuanLyBaiDang" asp-action="Index" class="control_account">Ql bài đăng</a>
+                        </p>
+                        }
+                    </div>
+                    }
+                </ul>
+            </div>
+            
+
+        </header>
+
+        @RenderBody()
+
+        <footer>
+            <hr>
+            <div class="grid footer">
+                <div class="grid_col_3 footer_col_1">
+                    <h3 class="footer_col_1-title">NGÂN HÀNG NHÀ TRỌ G08</h3>
+                    <p>Trụ sở chính :96 Định Công,Phương Liệt, Thanh Xuân, Hà Nội </p>
+                    <p>Chi nhánh Hà Nội : 101 Nguyễn Hiền, Bách Khoa, Hai Bà Trưng, Hà Nội</p>
+                    <p>Điện thoại : 0964 154 302 | Hotline: 1900 9876</p>
+                    <p>Website : nhntg08.com.vn</p>
+                    <p>Email: nhntg08@gmail.com</p>
+                </div>
+
+                <div class="grid_col_3 footer_col_1 grid_col_3-double">
+                    <div>
+                        <h3 class="footer_col_1-title">Khách hàng</h3>
+                        <p>Chính sách đặt tour</p>
+                        <p>Ý kiến khách hàng</p>
+                        <p>Phiếu góp ý</p>
+
+                    </div>
+                    <div style="padding-left: 50px;">
+                        <h3 class="footer_col_1-title">Chứng nhận</h3>
+                        <img src="./assets/img/tem1.png" alt="">
+                        <img src="./assets/img/tem2.png" alt="">
+                    </div>
+                </div>
+
+                <div class="grid_col_3 footer_col_1">
+                    <h3 class="footer_col_1-title">Thông tin khuyến mãi từ công ty</h3>
+                    <p>Những dịch vụ tiện ích khác</p>
+                    <p>Chăm sóc khách hàng chu đáo tận tình</p>
+                    <p>Chúng tôi thấu hiểu từ bạn</p>
+                </div>
+
+            </div>
+        </footer>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
+
+@section style{
+    <style>
+        .header_menu {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .menu_list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .menu_list-item {
+            margin-bottom: 10px;
+        }
+
+        .menu_list-item-link {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+            .menu_list-item-link:hover {
+                color: blue;
+            }
+
+        .header {
+            display: flex;
+            align-items: flex-start; /* Căn chỉnh các thành phần từ trái sang phải */
+        }
+
+        .header_menu {
+            height: 100%; /* Đảm bảo header_menu chiếm toàn bộ chiều cao của header */
+        }
+    </style>
+}

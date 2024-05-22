@@ -1,0 +1,15 @@
+﻿.wrapper {
+    margin-top: 2rem;
+}
+
+.form_display {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.df_100_col {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}

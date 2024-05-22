@@ -1,0 +1,106 @@
+﻿@using System.Globalization;
+@model Pagination<Phong>
+@{
+    ViewData["Title"] = "Bài Đăng Đã Đánh Giá";
+}
+
+@section Style {
+    <link rel="stylesheet" href="~/css/index.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+}
+
+<!-- Phần thân trang web -->
+<div class="main">
+    <fieldset class="fieldset_item" id="fieldset_item-mienbac">
+        <legend class="fieldset_item-title">
+            <a href="" id="">****** Thông tin những bài đăng đã đánh giá *****</a>
+        </legend>
+        <div class="grid item">
+
+            @foreach (var phong in Model)
+            {
+                <div class="grid_col_4 item_travel">
+                    <a asp-action="ChiTietPhong" asp-route-id=@phong.maPhong>
+                        @if (phong.tenAnh == null)
+                        {
+                            <div class="item_travel-item1" style="background-image: url('/img/anhtro/anh1.jpg');"></div>
+                        }
+                        else
+                        {
+                            <div class="item_travel-item1" style="background-image: url('/img/anhphong_@phong.maPhong/@phong.tenAnh[0]');"></div>
+                        }
+
+                    </a>
+                    <div class="item_travel-item2">
+                        <div class="item_travel-item2-con">
+                            <div class="stars" style="--rating: @String.Format(CultureInfo.InvariantCulture, "{0:F2}", phong.soSaoTrungBinh);" aria-label="Rating of this product is 2.3 out of 5."></div>
+
+                            <span class="item_travel-item2-con-price">@phong.giaPhong.ToString("#,#") Đ</span>
+                        </div>
+                        <a asp-controller="Home" asp-action="ChiTietPhong" asp-route-id=@phong.maPhong class="item_travel-item2-title">@phong.tenPhong</a>
+
+                        <div class="item_travel-item2-info">
+                            <div>
+                                <p>
+                                    <i class="fa-sharp fa-solid fa-location-dot"></i>
+                                    <span class="travel-item2-info--span">Địa chỉ: @phong.diaChi</span>
+                                </p>
+                                <p>
+                                    <i class="fa-sharp fa-solid fa-bolt"></i>
+                                    <span class="travel-item2-info--span">Giá điện: @phong.giaDien.ToString("#,#") Đ</span>
+                                </p>
+                                <p>
+                                    <i class="fa-sharp fa-solid fa-droplet"></i>
+                                    <span class="travel-item2-info--span">Giá nước: @phong.giaNuoc.ToString("#,#") Đ</span>
+                                </p>
+                                @*<p>
+                                <i class="fa-solid fa-user"></i>
+                                <span class="travel-item2-info--span">Người đăng bài: @phong.tenNguoiDang</span>
+                            </p>*@
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+
+
+        </div>
+        @{
+            var previousDisabled = !Model.HasPreviousPage ? "disabled" : "";
+            var nextDisabled = !Model.HasNextPage ? "disabled" : "";
+        }
+
+        <div class="page">
+            <a asp-action="Index" asp-route-pageIndex="@(Model.PageIndex -1)" class="btn btn-primary @previousDisabled">
+                Previous
+            </a>
+
+            <a asp-action="Index" asp-route-pageIndex="@(Model.PageIndex +1)" class="btn btn-primary @nextDisabled">
+                Next
+            </a>
+        </div>
+    </fieldset>
+
+    <br><br><br>
+
+    <div class="grid">
+        <p style="color:rgb(43, 172, 17);font-size: 27px;margin: 30px 0;">Biết hơn về NHNTG08</p>
+        <p style="padding: 10px; text-align: justify;">
+            Hiện nay, thực trạng vấn đề tìm thuê phòng trọ đã trở nên khó khăn hơn do thiếu hụt sự quản lý và tính đảm bảo đối với các căn hộ,
+            phòng trọ cho thuê. Tại Hà Nội - là nơi tập trung nhiều trường đại học, công ty, doanh nghiệp lớn trong và ngoài nước. Do đó, đây là
+            nơi sinh sống, làm việc và học tập của đông đảo người lao động, sinh viên đến từ khắp các tỉnh thành. Chính vì vậy mà nhu cầu tìm thuê
+            nhà trọ, phòng trọ Hà Nội là rất cao, số lượng phòng trọ tại Hà Nội cũng tăng lên đáng kể.
+            Tính tới Tháng 7/2023, số lượng tin đăng tìm nhà trọ, phòng trọ Hà Nội đã có hơn hàng nghìn tin đăng với đa dạng phân khúc giá khác nhau.
+            Với nhu cầu thuê phòng trọ rất đa dạng, nên nhiều loại hình phòng trọ mới đã xuất hiện giúp cho người thuê trọ có thể thoải mái sinh sống
+            . Vì thế việc xây dựng một website hỗ trợ quản lý thông tin phòng trọ là một điều không thể thiếu, việc cung cấp và cập nhật thông tin
+            các phòng trọ, chủ nhà trọ và thông tin những người muốn tìm thuê trọ sẽ giúp các đối tượng nắm bắt được thông tin một cách dễ dàng,
+            nhanh chóng và tiện lợi.
+
+        </p>
+    </div>
+
+</div>
+
+@section Scripts {
+
+}

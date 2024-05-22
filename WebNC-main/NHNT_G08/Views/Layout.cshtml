@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Tùy chỉnh kiểu dáng nếu cần */
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Thanh header ở đây -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <!-- Thanh menu navigation -->
+            <div class="container">
+                <a class="navbar-brand" href="#">Logo</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mr-auto">
+                        <!-- Các mục menu navigation -->
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Menu 1 <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Menu 2</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Menu 3</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main role="main" class="container">
+        <!-- Nội dung của trang con sẽ được hiển thị tại đây -->
+        @RenderBody()
+    </main>
+
+    <footer class="footer">
+        <!-- Thanh footer ở đây -->
+        <div class="container">
+            <span class="text-muted">Footer</span>
+        </div>
+    </footer>
+
+</body>
+</html>

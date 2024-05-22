@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\NHNT_G08.props" />
+</Project>

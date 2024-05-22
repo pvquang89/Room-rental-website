@@ -1,0 +1,238 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+ 
+.header{
+    background-image: none !important;
+}
+.header_menu{
+    background-color: #017fffcc;
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+.logo{
+    margin-left: 50px;
+    width: 100px;
+}
+
+.menu_list{
+    display: flex;
+    margin-left: 100px;
+}
+
+.menu_list-item{
+    position: relative;
+    list-style: none;
+    color:white;
+    font-size: 18px;
+    padding:0 50px;
+    line-height: 100px;
+    cursor: pointer;
+}
+.changepass{
+    color:rgb(91, 250, 58) !important;
+}
+/* xu ly khi có tài khoản */
+
+.menu_list-hot p {
+    color: white;
+    padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.none {
+    display: none;
+}
+
+.control_account {
+    color: white;
+    text-decoration: none;
+}
+.control_account:hover {
+    color:rgb(91, 250, 58) ;
+    text-decoration:none;
+}
+
+.dangxuat, .changepass {
+   color: white;
+    text-decoration: none;
+}
+
+    .dangxuat:hover, .changepass:hover  {
+        color:rgb(91, 250, 58);
+        text-decoration:none;
+    }
+/* ------------- */
+.menu_list-item:hover{
+    color:  rgb(91, 250, 58);
+}
+
+.menu_list-item-link{
+    text-decoration: none;
+    color:white;
+}
+
+.menu_list-item-link:hover{
+    color:  rgb(91, 250, 58);
+}
+
+.menu_list-hot{
+    font-size: 16px;
+    margin-top: 35px;
+}
+
+.menu_list-hotline{ 
+    color: white;
+    font-size: 18px;
+}
+
+.menu_list-item-sub{
+    position: absolute;
+    display: none;
+    z-index: 10;
+}
+
+.menu_list-item:hover .menu_list-item-sub{
+    display: block;
+}
+
+.menu_list-item-sub li{
+    display: block;
+    list-style: none;
+    line-height: 60px;
+    width: 160px;
+    background-color: rgb(91, 250, 58);
+    padding-left: 50px;
+}
+
+.menu_list-item-sub li a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu_list-item-sub li:hover{
+    background-color: rgb(49, 199, 19);
+}
+
+.header_title-item{
+    color : white;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+
+/* form */
+.form_changepass{
+    width: 553px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    margin-top: 30px;
+    position: relative;
+    border: 2px solid rgb(91, 250, 58);
+    padding: 40px;
+}
+
+.form_changepass-title{
+    text-align: center;
+    color: rgb(47, 175, 22);
+    font-size: 30px;
+}
+
+.form_changepass-item{
+    width: 100%;
+    padding: 0px 30px 0px 30px;
+}
+
+.form_changepass-item-label{
+    font-size: 20px;
+    width: 80%;
+}
+
+.form_changepass-item-input{
+    margin-left: 5px;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.form_changepass-show{
+    /* margin-left: 195px; */
+    padding-bottom: 20px;
+}
+
+#hienThiMatKhau{
+    width: 5%;
+    margin-left: 30px;
+}
+.form_changepass-btn{
+    text-align: center;
+}
+
+.btn{
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(47, 175, 22);
+    color:white;
+}
+
+.btn:hover{
+    background-color: rgb(47, 175, 22, 0.8);
+    cursor: pointer;
+}
+
+.form_changepass-btn{
+    display: flex;
+    justify-content: center;
+}
+
+/* footer */
+
+hr{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid rgb(91, 250, 58);
+}
+
+.grid{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.grid_col_3{
+    width: 30%;
+}
+
+.footer{
+    
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.footer_col_1{
+    padding: 20px;
+}
+
+.footer_col_1-title{
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.grid_col_3-double{
+    display: flex;
+    padding-left: 40px;
+}
+
+.btn_changepass a{
+    text-decoration:none;
+    color: #fff;
+}
